@@ -30,7 +30,7 @@ export class AuthService {
   helper = new JwtHelperService();
 
   login(loginViewModel: LoginViewModel) {
-    debugger
+    
     const httpOptions = {
       headers: new HttpHeaders({
         'Content-Type': 'application/json'

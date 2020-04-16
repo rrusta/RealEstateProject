@@ -36,7 +36,7 @@ export class LoginComponent implements OnInit {
   }
 
   onSubmitClick() {
-    debugger
+    
     this.loginForm["submitted"] = true;
 
     if (this.loginForm.valid) {
