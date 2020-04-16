@@ -1,0 +1,159 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="RealEstateClientWebApp\**" />
+    <Content Remove="RealEstateClientWebApp\**" />
+    <EmbeddedResource Remove="RealEstateClientWebApp\**" />
+    <None Remove="RealEstateClientWebApp\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="RealEstateClientWebApp\angular.json" />
+    <Content Include="RealEstateClientWebApp\e2e\tsconfig.json" />
+    <Content Include="RealEstateClientWebApp\package-lock.json" />
+    <Content Include="RealEstateClientWebApp\package.json" />
+    <Content Include="RealEstateClientWebApp\src\app\app.component.html" />
+    <Content Include="RealEstateClientWebApp\src\app\authentication\login\login.component.html" />
+    <Content Include="RealEstateClientWebApp\src\app\authentication\register\register.component.html" />
+    <Content Include="RealEstateClientWebApp\src\app\home\home.component.html" />
+    <Content Include="RealEstateClientWebApp\src\app\my-profile\my-profile.component.html" />
+    <Content Include="RealEstateClientWebApp\src\app\navbar\navbar.component.html" />
+    <Content Include="RealEstateClientWebApp\src\favicon.ico" />
+    <Content Include="RealEstateClientWebApp\src\index.html" />
+    <Content Include="RealEstateClientWebApp\tsconfig.app.json" />
+    <Content Include="RealEstateClientWebApp\tsconfig.json" />
+    <Content Include="RealEstateClientWebApp\tsconfig.spec.json" />
+    <Content Include="RealEstateClientWebApp\tslint.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="RealEstateClientWebApp\.editorconfig" />
+    <None Include="RealEstateClientWebApp\.gitignore" />
+    <None Include="RealEstateClientWebApp\browserslist" />
+    <None Include="RealEstateClientWebApp\dist\out-tsc\e2e\src\app.e2e-spec.js" />
+    <None Include="RealEstateClientWebApp\dist\out-tsc\e2e\src\app.e2e-spec.js.map" />
+    <None Include="RealEstateClientWebApp\dist\out-tsc\e2e\src\app.po.js" />
+    <None Include="RealEstateClientWebApp\dist\out-tsc\e2e\src\app.po.js.map" />
+    <None Include="RealEstateClientWebApp\dist\out-tsc\src\app\app-routing.module.js" />
+    <None Include="RealEstateClientWebApp\dist\out-tsc\src\app\app-routing.module.js.map" />
+    <None Include="RealEstateClientWebApp\dist\out-tsc\src\app\app.component.js" />
+    <None Include="RealEstateClientWebApp\dist\out-tsc\src\app\app.component.js.map" />
+    <None Include="RealEstateClientWebApp\dist\out-tsc\src\app\app.component.spec.js" />
+    <None Include="RealEstateClientWebApp\dist\out-tsc\src\app\app.component.spec.js.map" />
+    <None Include="RealEstateClientWebApp\dist\out-tsc\src\app\app.module.js" />
+    <None Include="RealEstateClientWebApp\dist\out-tsc\src\app\app.module.js.map" />
+    <None Include="RealEstateClientWebApp\dist\out-tsc\src\app\auth.service.js" />
+    <None Include="RealEstateClientWebApp\dist\out-tsc\src\app\auth.service.js.map" />
+    <None Include="RealEstateClientWebApp\dist\out-tsc\src\app\auth.service.spec.js" />
+    <None Include="RealEstateClientWebApp\dist\out-tsc\src\app\auth.service.spec.js.map" />
+    <None Include="RealEstateClientWebApp\dist\out-tsc\src\app\authentication\auth-custom-validators.service.js" />
+    <None Include="RealEstateClientWebApp\dist\out-tsc\src\app\authentication\auth-custom-validators.service.js.map" />
+    <None Include="RealEstateClientWebApp\dist\out-tsc\src\app\authentication\auth-custom-validators.service.spec.js" />
+    <None Include="RealEstateClientWebApp\dist\out-tsc\src\app\authentication\auth-custom-validators.service.spec.js.map" />
+    <None Include="RealEstateClientWebApp\dist\out-tsc\src\app\authentication\auth.guard.js" />
+    <None Include="RealEstateClientWebApp\dist\out-tsc\src\app\authentication\auth.guard.js.map" />
+    <None Include="RealEstateClientWebApp\dist\out-tsc\src\app\authentication\auth.guard.spec.js" />
+    <None Include="RealEstateClientWebApp\dist\out-tsc\src\app\authentication\auth.guard.spec.js.map" />
+    <None Include="RealEstateClientWebApp\dist\out-tsc\src\app\authentication\authentication.module.js" />
+    <None Include="RealEstateClientWebApp\dist\out-tsc\src\app\authentication\authentication.module.js.map" />
+    <None Include="RealEstateClientWebApp\dist\out-tsc\src\app\authentication\login\login.component.js" />
+    <None Include="RealEstateClientWebApp\dist\out-tsc\src\app\authentication\login\login.component.js.map" />
+    <None Include="RealEstateClientWebApp\dist\out-tsc\src\app\authentication\login\login.component.spec.js" />
+    <None Include="RealEstateClientWebApp\dist\out-tsc\src\app\authentication\login\login.component.spec.js.map" />
+    <None Include="RealEstateClientWebApp\dist\out-tsc\src\app\authentication\register\register.component.js" />
+    <None Include="RealEstateClientWebApp\dist\out-tsc\src\app\authentication\register\register.component.js.map" />
+    <None Include="RealEstateClientWebApp\dist\out-tsc\src\app\authentication\register\register.component.spec.js" />
+    <None Include="RealEstateClientWebApp\dist\out-tsc\src\app\authentication\register\register.component.spec.js.map" />
+    <None Include="RealEstateClientWebApp\dist\out-tsc\src\app\authentication\_ViewModels\LoginViewModel.js" />
+    <None Include="RealEstateClientWebApp\dist\out-tsc\src\app\authentication\_ViewModels\LoginViewModel.js.map" />
+    <None Include="RealEstateClientWebApp\dist\out-tsc\src\app\authentication\_ViewModels\RegisterViewModel.js" />
+    <None Include="RealEstateClientWebApp\dist\out-tsc\src\app\authentication\_ViewModels\RegisterViewModel.js.map" />
+    <None Include="RealEstateClientWebApp\dist\out-tsc\src\app\home\home.component.js" />
+    <None Include="RealEstateClientWebApp\dist\out-tsc\src\app\home\home.component.js.map" />
+    <None Include="RealEstateClientWebApp\dist\out-tsc\src\app\home\home.component.spec.js" />
+    <None Include="RealEstateClientWebApp\dist\out-tsc\src\app\home\home.component.spec.js.map" />
+    <None Include="RealEstateClientWebApp\dist\out-tsc\src\app\my-profile\my-profile.component.js" />
+    <None Include="RealEstateClientWebApp\dist\out-tsc\src\app\my-profile\my-profile.component.js.map" />
+    <None Include="RealEstateClientWebApp\dist\out-tsc\src\app\my-profile\my-profile.component.spec.js" />
+    <None Include="RealEstateClientWebApp\dist\out-tsc\src\app\my-profile\my-profile.component.spec.js.map" />
+    <None Include="RealEstateClientWebApp\dist\out-tsc\src\app\navbar\navbar.component.js" />
+    <None Include="RealEstateClientWebApp\dist\out-tsc\src\app\navbar\navbar.component.js.map" />
+    <None Include="RealEstateClientWebApp\dist\out-tsc\src\app\navbar\navbar.component.spec.js" />
+    <None Include="RealEstateClientWebApp\dist\out-tsc\src\app\navbar\navbar.component.spec.js.map" />
+    <None Include="RealEstateClientWebApp\dist\out-tsc\src\environments\environment.js" />
+    <None Include="RealEstateClientWebApp\dist\out-tsc\src\environments\environment.js.map" />
+    <None Include="RealEstateClientWebApp\dist\out-tsc\src\environments\environment.prod.js" />
+    <None Include="RealEstateClientWebApp\dist\out-tsc\src\environments\environment.prod.js.map" />
+    <None Include="RealEstateClientWebApp\dist\out-tsc\src\main.js" />
+    <None Include="RealEstateClientWebApp\dist\out-tsc\src\main.js.map" />
+    <None Include="RealEstateClientWebApp\dist\out-tsc\src\polyfills.js" />
+    <None Include="RealEstateClientWebApp\dist\out-tsc\src\polyfills.js.map" />
+    <None Include="RealEstateClientWebApp\dist\out-tsc\src\test.js" />
+    <None Include="RealEstateClientWebApp\dist\out-tsc\src\test.js.map" />
+    <None Include="RealEstateClientWebApp\e2e\protractor.conf.js" />
+    <None Include="RealEstateClientWebApp\karma.conf.js" />
+    <None Include="RealEstateClientWebApp\out-tsc\e2e\app.e2e-spec.js" />
+    <None Include="RealEstateClientWebApp\out-tsc\e2e\app.e2e-spec.js.map" />
+    <None Include="RealEstateClientWebApp\out-tsc\e2e\app.po.js" />
+    <None Include="RealEstateClientWebApp\out-tsc\e2e\app.po.js.map" />
+    <None Include="RealEstateClientWebApp\src\app\app.component.scss" />
+    <None Include="RealEstateClientWebApp\src\app\authentication\login\login.component.scss" />
+    <None Include="RealEstateClientWebApp\src\app\authentication\register\register.component.scss" />
+    <None Include="RealEstateClientWebApp\src\app\home\home.component.scss" />
+    <None Include="RealEstateClientWebApp\src\app\my-profile\my-profile.component.scss" />
+    <None Include="RealEstateClientWebApp\src\app\navbar\navbar.component.scss" />
+    <None Include="RealEstateClientWebApp\src\assets\.gitkeep" />
+    <None Include="RealEstateClientWebApp\src\styles.scss" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="9.0.0" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="7.0.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.3.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RealEstate.Application\RealEstate.Application.csproj" />
+    <ProjectReference Include="..\RealEstate.Infrastructure.IoC\RealEstate.Infrastructure.IoC.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <TypeScriptCompile Include="RealEstateClientWebApp\e2e\src\app.e2e-spec.ts" />
+    <TypeScriptCompile Include="RealEstateClientWebApp\e2e\src\app.po.ts" />
+    <TypeScriptCompile Include="RealEstateClientWebApp\src\app\app-routing.module.ts" />
+    <TypeScriptCompile Include="RealEstateClientWebApp\src\app\app.component.spec.ts" />
+    <TypeScriptCompile Include="RealEstateClientWebApp\src\app\app.component.ts" />
+    <TypeScriptCompile Include="RealEstateClientWebApp\src\app\app.module.ts" />
+    <TypeScriptCompile Include="RealEstateClientWebApp\src\app\auth.service.spec.ts" />
+    <TypeScriptCompile Include="RealEstateClientWebApp\src\app\auth.service.ts" />
+    <TypeScriptCompile Include="RealEstateClientWebApp\src\app\authentication\auth-custom-validators.service.spec.ts" />
+    <TypeScriptCompile Include="RealEstateClientWebApp\src\app\authentication\auth-custom-validators.service.ts" />
+    <TypeScriptCompile Include="RealEstateClientWebApp\src\app\authentication\auth.guard.spec.ts" />
+    <TypeScriptCompile Include="RealEstateClientWebApp\src\app\authentication\auth.guard.ts" />
+    <TypeScriptCompile Include="RealEstateClientWebApp\src\app\authentication\authentication.module.ts" />
+    <TypeScriptCompile Include="RealEstateClientWebApp\src\app\authentication\login\login.component.spec.ts" />
+    <TypeScriptCompile Include="RealEstateClientWebApp\src\app\authentication\login\login.component.ts" />
+    <TypeScriptCompile Include="RealEstateClientWebApp\src\app\authentication\register\register.component.spec.ts" />
+    <TypeScriptCompile Include="RealEstateClientWebApp\src\app\authentication\register\register.component.ts" />
+    <TypeScriptCompile Include="RealEstateClientWebApp\src\app\authentication\_ViewModels\LoginViewModel.ts" />
+    <TypeScriptCompile Include="RealEstateClientWebApp\src\app\authentication\_ViewModels\RegisterViewModel.ts" />
+    <TypeScriptCompile Include="RealEstateClientWebApp\src\app\home\home.component.spec.ts" />
+    <TypeScriptCompile Include="RealEstateClientWebApp\src\app\home\home.component.ts" />
+    <TypeScriptCompile Include="RealEstateClientWebApp\src\app\my-profile\my-profile.component.spec.ts" />
+    <TypeScriptCompile Include="RealEstateClientWebApp\src\app\my-profile\my-profile.component.ts" />
+    <TypeScriptCompile Include="RealEstateClientWebApp\src\app\navbar\navbar.component.spec.ts" />
+    <TypeScriptCompile Include="RealEstateClientWebApp\src\app\navbar\navbar.component.ts" />
+    <TypeScriptCompile Include="RealEstateClientWebApp\src\environments\environment.prod.ts" />
+    <TypeScriptCompile Include="RealEstateClientWebApp\src\environments\environment.ts" />
+    <TypeScriptCompile Include="RealEstateClientWebApp\src\main.ts" />
+    <TypeScriptCompile Include="RealEstateClientWebApp\src\polyfills.ts" />
+    <TypeScriptCompile Include="RealEstateClientWebApp\src\test.ts" />
+  </ItemGroup>
+
+
+</Project>
