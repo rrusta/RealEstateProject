@@ -14,6 +14,7 @@ export class NavbarComponent implements OnInit {
   }
 
   logout() {
+  //test commit
     return this.authService.logout();
   }
 }
