@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Text;
+//test
 
 namespace RealEstate.Application.ViewModels
 {
